@@ -29,7 +29,6 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
 }, 
-
 {
     "name": "ripmarkus",
     "gitLinks": ["https://github.com/ripmarkus/DevOps26"],
@@ -39,6 +38,17 @@ GROUP_REPOS = [
     "stack": [],
     "documentation": [],
     "sla": "",
-}
+},
+{
+    "name": "nasOps",
+    "gitLinks": ["https://github.com/nasOps/MunkKnows"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+},
+
 
 ]
