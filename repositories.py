@@ -1,7 +1,7 @@
 GROUP_REPOS = [
 {
     "name": "Gorillaerne",
-    "gitLinks": [""],
+    "gitLinks": ["https://github.com/Gorillaerne/Devops_Gorillas"],
     "backend": "",
     "frontend": "",
     "monitoring": "",
