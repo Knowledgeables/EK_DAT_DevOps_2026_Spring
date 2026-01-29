@@ -9,7 +9,37 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
 },
-    {
+{
+    "name": "EmperiaPizza",
+    "gitLinks": ["https://github.com/EmperiaPizza/EmperiaSearch"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+},
+{
+    "name": "ASCDevOps",
+    "gitLinks": ["https://github.com/ASCDevOps/whoknows_variations"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+}, 
+{
+    "name": "ripmarkus",
+    "gitLinks": ["https://github.com/ripmarkus/DevOps26"],
+    "backend": "",
+    "frontend": "",
+    "monitoring": "",
+    "stack": [],
+    "documentation": [],
+    "sla": "",
+},
+{
     "name": "nasOps",
     "gitLinks": ["https://github.com/nasOps/MunkKnows"],
     "backend": "",
@@ -19,4 +49,6 @@ GROUP_REPOS = [
     "documentation": [],
     "sla": "",
 },
+
+
 ]
