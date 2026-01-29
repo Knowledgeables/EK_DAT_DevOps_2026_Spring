@@ -40,17 +40,17 @@ link:00._Course_Material/01._Assignments/01._Introduction/01._Before/refresh_bas
 
 
 a| 
-// link:00._Course_Material/01._Assignments/01._Introduction/02._After/create_a_pr_to_repositories_py.md[Create a PR to repositories.py]
+link:00._Course_Material/01._Assignments/01._Introduction/02._After/create_a_pr_to_repositories_py.md[Create a PR to repositories.py]
 
-// link:00._Course_Material/01._Assignments/01._Introduction/02._After/github_started.md[GitHub started]
+link:00._Course_Material/01._Assignments/01._Introduction/02._After/github_started.md[GitHub started]
 
-// link:00._Course_Material/01._Assignments/01._Introduction/02._After/git_release.md[Create your first release on GitHub]
+link:00._Course_Material/01._Assignments/01._Introduction/02._After/git_release.md[Create your first release on GitHub]
 
-// link:00._Course_Material/01._Assignments/01._Introduction/02._After/upgrade_the_application.md[Upgrade the application]
+link:00._Course_Material/01._Assignments/01._Introduction/02._After/upgrade_the_application.md[Upgrade the application]
 
-// link:00._Course_Material/01._Assignments/01._Introduction/02._After/create_a_dependency_graph.md[Create a dependency graph]
+link:00._Course_Material/01._Assignments/01._Introduction/02._After/create_a_dependency_graph.md[Create a dependency graph]
 
-// link:00._Course_Material/01._Assignments/01._Introduction/02._After/problems_with_the_codebase.md[Problems with the codebase]
+link:00._Course_Material/01._Assignments/01._Introduction/02._After/problems_with_the_codebase.md[Problems with the codebase]
 
 a|
 Can use basic `git` commands to clone, add, commit, push, and pull.
@@ -82,15 +82,15 @@ Monolith / Multirepo
 Environment variables
 
 a|
-// link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/learn_branching.md[Learn branching]
+link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/learn_branching.md[Learn branching]
 
-// link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/terminal_files.md[Terminal files]
+link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/terminal_files.md[Terminal files]
 
-// link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/git_advanced.md[Git advanced]
+link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/git_advanced.md[Git advanced]
 
-// link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/go_and_ruby_sqlite_setup.md[Go and Ruby SQLite setup]
+link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/go_and_ruby_sqlite_setup.md[Go and Ruby SQLite setup]
 
-// link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/decide_on_a_framework.md[Decide on a framework]
+link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/01._Before/decide_on_a_framework.md[Decide on a framework]
 
 a|
 // link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/02._After/commence_the_rewrite.md[Commence the rewrite]
