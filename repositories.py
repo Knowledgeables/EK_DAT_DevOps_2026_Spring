@@ -31,7 +31,7 @@ GROUP_REPOS = [
 }, 
 {
     "name": "ripmarkus",
-    "gitLinks": ["https://github.com/ripmarkus/DevOps26"],
+    "gitLinks": ["https://github.com/ripmarkus/whoknows_ripmarkus"],
     "backend": "",
     "frontend": "",
     "monitoring": "",
