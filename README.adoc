@@ -193,23 +193,23 @@ Understands the difference between pull-based and push-based deployment.
 | Feb. 19th
 a|
 
-// link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/01._introduction.md[Introduction]
-Introduction
+link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/01._introduction.md[Introduction]
+// Introduction
 
-// link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/02._software_quality.md[Software quality]
-Software Quality
+link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/02._software_quality.md[Software quality]
+// Software Quality
 
-// link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/03._ci_cd.md[CI/CD]
-CI/CD
+link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/03._ci_cd.md[CI/CD]
+// CI/CD
 
-// link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/04._linting.md[Linting]
-Linting
+link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/04._linting.md[Linting]
+// Linting
 
-// link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/05._branching_strategies.md[Branching strategies]
-Branching strategies
+link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/05._branching_strategies.md[Branching strategies]
+// Branching strategies
 
-// link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/06._cron.md[Cron]
-Cron
+link:00._Course_Material/02._Slides/04._Sofware_Quality_Linting_CI/06._cron.md[Cron]
+// Cron
 
 a|
 link:00._Course_Material/01._Assignments/04._Sofware_Quality_Linting_CI/01._Before/research_git_branching_strategies.md[Research git branching strategies]
