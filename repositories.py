@@ -2,10 +2,10 @@ GROUP_REPOS = [
 {
     "name": "Gorillaerne",
     "gitLinks": ["https://github.com/Gorillaerne/Devops_Gorillas"],
-    "backend": "",
-    "frontend": "",
+    "backend": "https://gorillahub.dk",
+    "frontend": "https://gorillahub.dk",
     "monitoring": "",
-    "stack": [],
+    "stack": ["Go","Gorilla/Mux","JavaScript","HTML","CSS","Docker","Nginx"],
     "documentation": [],
     "sla": "",
 },
