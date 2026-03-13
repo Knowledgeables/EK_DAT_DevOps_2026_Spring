@@ -333,7 +333,7 @@ link:00._Course_Material/01._Assignments/06._Docker_compose_Continuous_Delivery_
 link:00._Course_Material/01._Assignments/06._Docker_compose_Continuous_Delivery_DevOps/02._After/docker_compose_continuous_delivery.md[Docker Compose + Continuous Delivery]
 
 a|
-Can argue for the benefit of using Docker compose over Dockerfiles.
+Can argue for the benefit of Docker compose over only using Dockerfiles.
 
 Understands various basic docker-compose.yml files.
 
@@ -348,7 +348,7 @@ Understands the history of DevOps and different ways to understand it.
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
 | 7
-| Mar. 12th
+| March 12th
 a|
 Guest Lecture by Jan from link:https://www.eficode.com/[Eficode]​
 a|
@@ -372,6 +372,54 @@ Has read all the course literature and can talk about the content.
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+| 8
+| March 19th
+a|
+// link:00._Course_Material/02._Slides/08._Continuous_Deployment/01._introduction.md[Introduction]
+Introduction
+
+// link:00._Course_Material/02._Slides/08._Continuous_Deployment/02._devops.md[DevOps]
+DevOps
+
+// link:00._Course_Material/02._Slides/08._Continuous_Deployment/03._devops_is_people.md[DevOps is People]
+DevOps is People
+
+// link:00._Course_Material/02._Slides/08._Continuous_Deployment/04._incident_response_postmortem.md[Incident Response and Postmortem]
+Postmortem and Incident Response
+
+// link:00._Course_Material/02._Slides/08._Continuous_Deployment/05._continuous_deployment.md[Continuous Deployment]
+Continuous Deployment
+
+// link:00._Course_Material/02._Slides/08._Continuous_Deployment/06._reverse_proxies.md[Reverse Proxies]
+Reverse Proxies
+
+a|
+link:00._Course_Material/01._Assignments/08._Continuous_Deployment/01._Before/deploy_to_github_pages.md[Deploy to GitHub Pages]
+
+link:00._Course_Material/01._Assignments/08._Continuous_Deployment/01._Before/read_about_gitops.md[Read about GitOps]
+a|
+link:00._Course_Material/01._Assignments/08._Continuous_Deployment/02._After/continuous_deployment.md[Continuous Deployment]
+
+link:00._Course_Material/01._Assignments/08._Continuous_Deployment/02._After/fts5.md[FTS5]
+
+link:00._Course_Material/01._Assignments/08._Continuous_Deployment/02._After/postmortem.md[Postmortem]
+
+link:00._Course_Material/01._Assignments/08._Continuous_Deployment/02._After/smoke_testing.md[Smoke Testing]
+
+link:00._Course_Material/01._Assignments/08._Continuous_Deployment/02._After/user_feedback_survey.md[User Feedback Survey!]
+
+link:00._Course_Material/01._Assignments/08._Continuous_Deployment/02._After/hadolint.md[Hadolint]
+a|
+Has a clear view of different definitions of DevOps and is able to conjure their personal definition.
+
+Understands the concepts of the principles of *Flow*, *Feedback*, and *Continuous Learning and Experimentation*.
+
+Can argue for the importance of carrying out a postmortem and knows how to approach conducting one.
+
+Can recall various ways to achieve continuous deployment.
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 |===
