@@ -34,7 +34,7 @@ GROUP_REPOS = [
     "gitLinks": ["https://github.com/ripmarkus/whoknows_ripmarkus"],
     "backend": "http://91.100.1.101",
     "frontend": "http://91.100.1.101",
-    "monitoring": "",
+    "monitoring": "http://65.109.162.80:3000/",
     "stack": ["Ruby", "SQLite"],
     "documentation": [],
     "sla": "",
