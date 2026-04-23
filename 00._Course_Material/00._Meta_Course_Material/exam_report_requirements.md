@@ -1,4 +1,4 @@
-# Exam report requirements
+# Exam Report Requirements
 
 **Motivation**: The exam report is written by the group and will be read by me and the censor. 
 
@@ -12,15 +12,15 @@ You are allowed to work on the project after handing in the report.
 
 **Language**: Danish/English
 
-**Length**: Max 8 pages
+**Length**: Max 4 pages
 
 Rules per the study curriculum:
 
 - A page is defined as 2400 characters (including spaces).
 
-- Images are counted as much as the space that they take up. If you make the images too small to be read without digitally zooming in, then it will be considered as imcomprehensible.
+- The space requirement excludes images. If you make the images too small to be read without digitally zooming in, then it will be considered as imcomprehensible.
 
-Please add the necessary images and diagrams instead of writing 8 pages of text.
+Please add the necessary images and diagrams instead of writing 4 pages of text.
 
 If you exceed the limit, then anything above the limit will not count towards the grade.
 
