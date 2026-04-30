@@ -13006,9 +13006,10 @@ Find exact data on how well they performed on Page 316 in the DevOps Handbook.
 
 # KubeInvaders
 
-Try the Game Mode: 
-
 https://kubeinvaders.platformengineering.it/
+
+[Example Video](https://youtu.be/SkldwwmYXJo?t=67)
+
 
 ---
 
