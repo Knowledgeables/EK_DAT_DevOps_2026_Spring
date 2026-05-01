@@ -6,47 +6,45 @@ Monitors will run in Postman Cloud and send you emails if the tests fail.
 
 ---
 
+## Limitations
+
+Free tier only allows for 1000 requests per month. That means that you can only run 1 HTTP request hourly. 
+
+See your monitoring usage here: https://web.postman.co/billing/add-ons/overview
+
+And see the running monitors and amount of request used here: https://web.postman.co/usage/monitors
+
+---
+
 ## Create collection
 
 You must create a collection in Postman first. A collection is a group of requests.
 
-<img src="./assets_postman_monitoring/create_collection.png">
-
 https://learning.postman.com/docs/getting-started/first-steps/creating-the-first-collection/
 
----
+You can also import your OpenAPI spec file to get all the requests. Remember to only set up a monitor for 1 request because of the limitation discussed above. 
 
-## Create a request
-
-Click on the "+" button to create a new request and for now write a placeholder request URL. I wrote `localhost:8080/api/movies`.
-
----
-
-## Save request
-
-Click on the `💾 Save` button on the top right corner of the request.
-
-Give it a name and assign it to the collection.
-
-<img src="./assets_postman_monitoring/save_request.png">
 
 ---
 
 ## Set variables
 
-Highlight the URL and tool tip will pop up with a `Set as variable` button. Click on it.
+Highlight parts of the URL and right click to get the context menu. Choose `Set as variable`, give it a name and scope.
 
-<img src="./assets_postman_monitoring/set_variables.png">
+<img src="./assets_postman_monitoring/set_variable_1.png">
 
-Create a BASE_URL and PORT variable and set the scope to the collection.
+<img src="./assets_postman_monitoring/set_variable_2.png">
+
+<img src="./assets_postman_monitoring/set_variable_3.png">
+
 
 ---
 
-## Edit variables
+## See / edit variables
 
 You can edit variables by clicking on the `...` icon on the upper left side (the collection drawer) and selecting edit.
 
-Choose the `Variables` tab and edit the variables.
+Choose the `Variables` tab and edit the variables. Change the `BASE_URL` to the deployed server.
 
 <img src="./assets_postman_monitoring/edit_variables.png">
 
@@ -100,72 +98,6 @@ pm.test("Response body is present", function () {
 });
 ```
 
-<!-- ---
-
-<div class="title-card">
-    <h1>Runners</h1>
-</div>
-
----
-
-## Collection runner
-
-A runner automates running a collection of requests instead of having to run each of them manually.
-
-You can find the runner in the the bottom right corner of the Postman app.
-
-<img src="./assets_postman_monitoring/runner_button.png">
-
----
-
-## Adding the collection to the runner
-
-Simply drag the collection from the collection drawer to the runner.
-
-<img src="./assets_postman_monitoring/adding_collection_to_runner.png">
-
----
-
-## Run the runner
-
-Click on the `Run` button in the runner (bottom right).
-
----
-
-## Automate Run
-
-<img src="./assets_postman_monitoring/automate_run.png">
-
----
-
-# Schedule run
-
-You can schedule a run to run at a specific time and send you emails if the tests fail.
-
-Postman cloud runs the tests for you and you don't have to setup a server.
-
-<img src="./assets_postman_monitoring/schedule_run.png">
-
-
----
-
-
-## Schedule CI/CD - I
-
-You can run a runner in CI/CD. For instance, you can make test that all the routes are working before deploying to production.
-
-Or you could immediately role back in production in case of a failed test.
-6
-<img src="./assets_postman_monitoring/schedule_CICD.png">
-
----
-
-
-## Schedule CI/CD - II
-
-Click on `Configure command` and you will be able to get a snippet and instruction on how to add the code to your CI/CD pipeline.
-
-<img src="./assets_postman_monitoring/copy_CICD_code.png"> -->
 
 ---
 
@@ -181,17 +113,34 @@ Click on the icon below `history` in the left side and enable Monitors.
 
 ## Create a Monitor
 
-Click on `Monitors` on the left sie and selct `Create a Monitor`:
+Click on `Monitors` on the left side and select `Create a Monitor`:
 
-<img src="./assets_postman_monitoring/create_a_monitor.png">
+<img src="./assets_postman_monitoring/monitor_1.png">
 
-Give the monitor a name, select the collection.
+Give it a name and choose  `Hour timer` and `Every hour`. Ensure that other group members will receive emails. 
+
+<img src="./assets_postman_monitoring/monitor_2.png">
+
+Once you create it, this is the screen you will see. You can try to run it and it will run from Postman Cloud (not your local computer):
+
+
+<img src="./assets_postman_monitoring/monitor_3.png">
 
 ---
 
-## Run the monitor
+## Find the monitor
 
-<img src="./assets_postman_monitoring/run_monitor.png">
+Here is how you can find the monitor under the collection:
+
+<img src="./assets_postman_monitoring/monitor_4.png">
+
+---
+
+## Example monitor
+
+This is what the monitor overview will look like after a multiple succesful runs:
+
+<img src="./assets_postman_monitoring/monitor_5.png">
 
 ---
 

@@ -111,8 +111,6 @@ link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/02._Af
 
 link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/02._After/kanban_github_project.md[Kanban GitHub project]
 
-link:./00._Course_Material/01._Assignments/02._Conventions_OpenAPI_DotEnv/02._After/generate_openapi_spec_in_postman.md[Generate OpenAPI Postman]
-
 a|
 Knows which type of files not to push into version control and why. Will ensure that this is followed-through in the group repositories. 
 
