@@ -22,19 +22,29 @@ For the first category of tools, consider how you can make them part of your CI/
 
 [snyk](https://snyk.io/) has a a database full of exploits. They've created multiple tools to help you find and fix vulnerabilities in your code.
 
-1. Install snyk (`brew install snyk-cli` / `choco install snyk` / `npm i -g snyk`). You will then have to autheticate with:
+1. Install snyk (`brew install snyk-cli` / `choco install snyk` / `npm i -g snyk`). 
+
+With `scoop`, you must add the dependency first:
+
+```bash
+$ scoop bucket add snyk https://github.com/snyk/scoop-snyk
+$ scoop install snyk
+```
+
+
+2. Autheticate with:
 
 ```bash
 $ snyk auth
 ```
 
-2. You can run snyk on your project:
+3. Run snyk on your project:
 
 ```bash
 $ snyk test
 ```
 
-3. You can also run snyk on a Docker container but I recommend Docker Scout for that.
+4. You can also run snyk on a Docker container but I recommend Docker Scout for that.
 
 
 ---

@@ -18,12 +18,23 @@ Have an editor / IDE ready (including renewing licenses). You are free to use an
 
 Run `ssh` in your terminal. If you get a message that it is not installed then you need to install it or use a different terminal. This is needed already for the first lecture!
 
+For convenience and uniformity of the course materials we will use RSA keys so ensure that you have `id_rsa` and `id_rsa.pub` files in the `~/.ssh/` folder.
+
+#### Install uv
+
+We will use `uv` to manage projects and dependencies in Python:
+
+https://docs.astral.sh/uv/getting-started/installation/
+
+---
 
 ### Windows users only
 
-Install `Chocolatey`: https://chocolatey.org/
+Don't use CMD in the course - find a suitable terminal. 
 
-Don't use CMD. 
+`Scoop` is a package manager for Windows that will be used to install tools for the course.
+
+Install `Scoop`: https://scoop.sh/
 
 Install `Windows subsystem for Linux`: https://learn.microsoft.com/en-us/windows/wsl/install
 
@@ -42,12 +53,11 @@ You might need to run this on Windows in an admin Powershell terminal to run Pyt
 $ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 ```
 
+---
 
 ### Mac users only
 
 Install homebrew: https://brew.sh/
-
-Video guide on how to download for Macbook M1 or newer: https://youtu.be/Qvfvj-UCJuQ?t=55
 
 ---
 
@@ -151,11 +161,6 @@ https://developer.hashicorp.com/terraform/install?product_intent=terraform
 There is an SQLite3 CLI that you can install. It will allow you to interact with Sqlite databases from the terminal.
 
 
-<!-- #### Install Poetry
-
-Still unsure if this will be used in the course so this is very optional for now.
-
-https://python-poetry.org/docs/main/ -->
 
 
 

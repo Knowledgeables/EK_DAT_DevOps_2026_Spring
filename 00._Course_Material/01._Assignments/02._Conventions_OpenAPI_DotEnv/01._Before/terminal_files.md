@@ -123,11 +123,11 @@ Depending on your terminal you might already have them.
 You can test it by running `nano` or `vim`. Otherwise:
 
 ```bash
-$ choco install nano
+$ scoop install nano
 ```
 
 ```bash
-$ choco install vim
+$ scoop install vim
 ```
 
 ---

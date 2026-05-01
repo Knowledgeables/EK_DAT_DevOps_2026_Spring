@@ -22,7 +22,7 @@ $ go version
 ### Windows
 
 ```powershell
-$ choco install golang -y
+$ scoop install go
 $ go version
 ```
 
@@ -262,8 +262,7 @@ $ ruby -v
 Setting the path for Ruby is necessary. Instead of `refreshenv`, you could also restart the terminal.
 
 ```bash
-$ choco install ruby -y
-$ setx PATH "$($env:PATH);C:\ProgramData\chocolatey\lib\ruby\tools\bin"
+$ scoop install ruby
 $ refreshenv
 $ ruby -v
 ```

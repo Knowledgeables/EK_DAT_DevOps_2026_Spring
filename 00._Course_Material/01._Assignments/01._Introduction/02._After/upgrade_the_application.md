@@ -82,7 +82,7 @@ $ brew install shellcheck
 Windows:
 
 ```bash
-$ choco install shellcheck
+$ scoop install shellcheck
 ```
 
 #### Usage
